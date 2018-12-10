@@ -5,6 +5,8 @@ var ver ="0.86"
 var mybot = new Discord.Client();
 var getJSON = require('get-json');
 
+mybot.login(process.env.TOKEN);//where BOT_TOKEN is the token of our bot
+
 mybot.on("ready", function () {
 	console.log("Ready to begin! Serving in " + mybot.channels.length + " channels");
 });
@@ -100,12 +102,3 @@ app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
 
-
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.once('ready', () => {
-    console.log('Ready!');
-});
-
-client.login('your-token-goes-here');
