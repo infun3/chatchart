@@ -1,7 +1,7 @@
 {
   "name": "chatchart",
   "description": "char charts",
-  "version": "0",
+  "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,6 @@
   "maintainers": [
     {
       "name": "infun3",
-      "email": "",
       "web": "https://github.com/infun3"
     }
   ],
@@ -22,8 +21,7 @@
     "discord.js": "^11",
     "express": "^4",
     "get-json": "^1",
-    "ajax-request": "^1",
-    "jquery": "^2.2.4"
+    "ajax-request": "^1"
   },
   "repositories": [
     {
